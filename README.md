@@ -42,4 +42,4 @@ This script generates QR codes from a CSV file and places a logo in the center o
 ## Example
 
 ```sh
-python generate-qr-codes.py -csv_path  Bitly_Bulk_Shorten_Cottonwood.csv
+python generate-qr-codes.py -csv_path "Bitly_Bulk_Shorten_Cottonwood.csv"
