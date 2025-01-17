@@ -91,4 +91,4 @@ for index, row in df.iterrows():
     black_bg.paste(logo, pos, logo)
     
     # Save the image in the timestamped subfolder
-    black_bg.save(os.path.join(output_folder, f'qr_code_{utm_source}.png'))
+    black_bg.save(os.path.join(output_folder, f'qr_code_{utm_source}.png'.replace('+', '_')))
