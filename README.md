@@ -1,6 +1,6 @@
 # QR Code Generator
 
-This script generates QR codes from a CSV file and places a logo in the center of each QR code. The QR codes are saved in a timestamped subfolder within the `qr-code-images` folder.
+This script generates QR codes from a CSV file and places a logo in the center of each QR code. The QR codes are saved in a timestamped subfolder within the `qr-code-images` folder that it will create within the working directory, if it does not exist at time of execution.
 
 ## Prerequisites
 
